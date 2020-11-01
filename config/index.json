@@ -1,0 +1,60 @@
+{
+  "tropasInicialesPorCiv": {
+    "Chinos": {
+      "Piquero": 2,
+      "Arquero": 25,
+      "Caballero": 2
+    },
+    "Ingleses": {
+      "Piquero": 10,
+      "Arquero": 10,
+      "Caballero": 10
+    },
+    "Bizantinos": {
+      "Piquero": 5,
+      "Arquero": 8,
+      "Caballero": 15
+    }
+  },
+  "unidades": {
+    "Piquero": {
+      "entrenamiento": {
+        "coste": 10,
+        "incrFuerza": 3
+      },
+      "transformacion": {
+        "esTransformable": true,
+        "coste": 30,
+        "seConvierteEn": "Arquero"
+      },
+      "fuerza": 5
+    },
+    "Arquero": {
+      "entrenamiento": {
+        "coste": 20,
+        "incrFuerza": 7
+      },
+      "transformacion": {
+        "esTransformable": true,
+        "coste": 40,
+        "seConvierteEn": "Caballero"
+      },
+      "fuerza": 10
+    },
+    "Caballero": {
+      "entrenamiento": {
+        "coste": 30,
+        "incrFuerza": 10
+      },
+      "transformacion": {
+        "esTransformable": false
+      },
+      "fuerza": 20
+    }
+  },
+  "batallas": {
+    "oroPorVictoria": 100,
+    "unidadesPerdidasPorDerrota": 2,
+    "unidadesPerdidasPorEmpate": 1
+  }
+}
